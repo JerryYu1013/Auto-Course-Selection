@@ -35,7 +35,7 @@ username_field.send_keys('id')  #輸入帳號
 password_field.send_keys('pwd')  #輸入密碼
 
 
-#下載驗證碼圖片
+#擷取驗證碼圖片
 
 captcha_image = WebDriverWait(driver, 10).until(
     EC.presence_of_element_located((By.ID, 'validatePic'))
