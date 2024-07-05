@@ -1,2 +1,2 @@
-# Auto-Class-Selection
+# Auto-Course-Selection
 自動選課程式
