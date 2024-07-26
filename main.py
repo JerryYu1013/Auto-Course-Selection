@@ -9,7 +9,7 @@ options.add_argument('--disable-gpu')
 
 driver = webdriver.Chrome(options=options)
 
-login_url = 'https://highschool.kh.edu.tw/Login.action?schNo=563401D' #高雄高商校務行政系統專屬網址
+login_url = 'https://highschool.kh.edu.tw/Login.action?schNo=563401D' #校務行政系統專屬網址
 driver.get(login_url)
 
 
