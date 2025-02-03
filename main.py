@@ -101,14 +101,14 @@ online_course_selection.click()
 print("已成功點擊 '彈性學習線上選課'")
 
 
-#點擊"二升三彈性選課"
+#點擊"XXXX選課"
 
 class_selection = WebDriverWait(driver, 10).until(
-    EC.element_to_be_clickable((By.XPATH, '//td[@title="二升三彈性選課"]'))
+    EC.element_to_be_clickable((By.XPATH, '//td[@title="XXXX選課"]'))
 )
 class_selection.click()
 
-print("已成功點擊 '二升三彈性選課'")
+print("已成功點擊 'XXXX選課'")
 
 
 #點及課程
