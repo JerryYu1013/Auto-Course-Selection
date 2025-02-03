@@ -50,6 +50,8 @@ pip install selenium anticaptchaofficial
   將您的帳號與密碼填入程式中的 `username_field.send_keys('id')` 和 `password_field.send_keys('pwd')`。
 - **校務系統網址**  
   替換 `login_url` 為您的學校專屬校務系統網址。
+- **選課名稱**  
+  將您的選課名稱(例如:"二升三彈性選課"或"高三彈性選課")填入程式中的EC.element_to_be_clickable((By.XPATH, '//td[@title="XXXX選課"]'))
 - **課程 XPath**  
   根據您的需求，修改 `class_button` 的 XPath。
 
@@ -97,6 +99,8 @@ pip install selenium anticaptchaofficial
 - 本程式僅供學術與學習用途，請勿用於非法操作。
 - 驗證碼破解需要付費，請確保您的 Anti-Captcha 帳號餘額充足。
 - 瀏覽器操作過程中，請勿手動干預。
+- 請在正式選課前測試操作是否正常。
+- 選課失敗，概不負責。
 
 ---
 
